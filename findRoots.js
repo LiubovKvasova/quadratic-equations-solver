@@ -16,7 +16,7 @@ const findRoots = (coefficients) => {
     const x1 = -b / (2 * a);
     
     console.log('There is 1 root');
-    console.log('x = ' + x1);
+    console.log(`x = ${x1}`);
   } else {
     console.log('There are 0 roots');
   }
