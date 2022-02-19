@@ -39,7 +39,4 @@ if (coefficients[0] === 0) {
   process.exit(1);  
 }
 
-console.log(coefficients);
-
 findRoots(coefficients);
-
